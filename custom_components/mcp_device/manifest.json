@@ -1,7 +1,7 @@
 {
   "domain": "mcp_device",
-  "name": "MCP Device",
-  "codeowners": [],
+  "name": "小电拼Home Assistant集成",
+  "codeowners": ["@Adisonyao"],
   "config_flow": true,
   "documentation": "https://github.com/Adisonyao/HA_mcp_CoCan",
   "integration_type": "hub",
