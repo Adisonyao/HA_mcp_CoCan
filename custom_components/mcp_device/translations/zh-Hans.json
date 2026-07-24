@@ -2,8 +2,8 @@
   "config": {
     "step": {
       "user": {
-        "title": "MCP 设备配置",
-        "description": "连接任意支持 MCP 协议的智能设备。请输入设备的 MCP Server 地址。配置完成后将自动创建所有实体，你可以在集成选项中修改。{url_example}",
+        "title": "小电拼配置",
+        "description": "通过MCP连接小电拼。请输入小电拼的 MCP Server 地址。配置完成后将自动创建所有实体，你可以在集成选项中修改。",
         "data": {
           "mcp_url": "MCP Server 地址",
           "transport": "传输类型",

@@ -15,7 +15,7 @@ CONF_ENTITIES: Final = "entities_config"
 
 # Default values
 DEFAULT_SCAN_INTERVAL: Final = 15
-DEFAULT_DEVICE_NAME: Final = "MCP Device"
+DEFAULT_DEVICE_NAME: Final = "CoCan"
 
 
 # ── Transport types ──────────────────────────────────────────────
