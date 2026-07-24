@@ -1,0 +1,44 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "MCP 设备配置",
+        "description": "连接任意支持 MCP 协议的智能设备。请输入设备的 MCP Server 地址。配置完成后将自动创建所有实体，你可以在集成选项中修改。{url_example}",
+        "data": {
+          "mcp_url": "MCP Server 地址",
+          "transport": "传输类型",
+          "mcp_token": "认证 Token（可选）",
+          "device_name": "设备名称",
+          "scan_interval": "轮询间隔（秒）"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "无法连接 MCP 服务器，请检查地址和 Token。",
+      "unknown": "发生未知错误，请查看日志。",
+      "invalid_url": "无效的 URL。必须使用 http 或 https 协议，且不能指向环回或链路本地地址。"
+    },
+    "abort": {
+      "already_configured": "该 MCP 设备已配置过。"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "MCP 设备选项",
+        "description": "修改连接设置和/或实体配置。字段说明请参阅 README。",
+        "data": {
+          "mcp_url": "MCP Server 地址",
+          "transport": "传输类型",
+          "mcp_token": "认证 Token（可选）",
+          "scan_interval": "轮询间隔（秒）",
+          "entities_config": "实体配置 JSON"
+        }
+      }
+    },
+    "error": {
+      "invalid_json": "JSON 格式错误，请检查语法。",
+      "validation_error": "配置验证失败，请检查上方的错误信息。"
+    }
+  }
+}

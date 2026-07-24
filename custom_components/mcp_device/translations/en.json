@@ -1,0 +1,44 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "MCP Device Setup",
+        "description": "Connect to any MCP-compatible smart device. Enter your device's MCP Server URL below. All entities will be auto-created after setup -- you can edit them later in integration options. {url_example}",
+        "data": {
+          "mcp_url": "MCP Server URL",
+          "transport": "Transport Type",
+          "mcp_token": "Authorization Token (optional)",
+          "device_name": "Device Name",
+          "scan_interval": "Polling Interval (seconds)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect to MCP server. Please check the URL and token.",
+      "unknown": "Unknown error occurred. Please check the logs.",
+      "invalid_url": "Invalid URL. Must use http or https scheme and not point to loopback or link-local address."
+    },
+    "abort": {
+      "already_configured": "This MCP device is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "MCP Device Options",
+        "description": "Update connection settings and/or entity configuration. See README for field documentation.",
+        "data": {
+          "mcp_url": "MCP Server URL",
+          "transport": "Transport Type",
+          "mcp_token": "Authorization Token (optional)",
+          "scan_interval": "Polling Interval (seconds)",
+          "entities_config": "Entity Configuration JSON"
+        }
+      }
+    },
+    "error": {
+      "invalid_json": "Invalid JSON format. Please check the syntax.",
+      "validation_error": "Configuration validation failed. Please check the errors above."
+    }
+  }
+}

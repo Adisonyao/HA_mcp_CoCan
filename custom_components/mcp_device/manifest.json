@@ -1,0 +1,11 @@
+{
+  "domain": "mcp_device",
+  "name": "MCP Device",
+  "codeowners": [],
+  "config_flow": true,
+  "documentation": "https://github.com/Adisonyao/HA_mcp_CoCan",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "version": "0.3.5"
+}
