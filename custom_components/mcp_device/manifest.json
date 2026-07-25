@@ -4,6 +4,7 @@
   "codeowners": ["@Adisonyao"],
   "config_flow": true,
   "documentation": "https://github.com/Adisonyao/HA_mcp_CoCan",
+  "issue_tracker":"https://github.com/Adisonyao/HA_mcp_CoCan/issues",
   "integration_type": "hub",
   "iot_class": "cloud_polling",
   "requirements": [],
