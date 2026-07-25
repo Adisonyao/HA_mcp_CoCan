@@ -1,6 +1,6 @@
 {
-  "domain": "mcp_device",
-  "name": "小电拼Home Assistant集成",
+  "domain": "mcp_cocan",
+  "name": "小电拼Home Assistant",
   "codeowners": ["@Adisonyao"],
   "config_flow": true,
   "documentation": "https://github.com/Adisonyao/HA_mcp_CoCan",

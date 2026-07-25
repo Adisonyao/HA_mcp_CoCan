@@ -29,7 +29,7 @@
 
 ### 方式二：手动安装
 1. 下载最新 [Release](https://github.com/Adisonyao/HA_mcp_CoCan/releases) 压缩包。
-2. 解压并将文件夹移至 `/config/custom_components/mcp_device/`。
+2. 解压并将文件夹移至 `/config/custom_components/mcp_cocan/`。
 3. 重启 Home Assistant 并添加集成。
 
 ---
@@ -108,7 +108,7 @@
 <summary><b>👉 点击展开：代码架构与安全设计</b></summary>
 
 ```
-custom_components/mcp_device/
+custom_components/mcp_cocan/
 ├── __init__.py          # 集成入口与平台注册
 ├── config_flow.py       # UI 配置与连接测试流程
 ├── coordinator.py       # 数据协调器 (轮询 MCP & 状态缓存)
@@ -156,7 +156,7 @@ custom_components/mcp_device/
 This integration leverages the **MCP Protocol** open for AI agents. Unlike MQTT, it allows the **Official App and Home Assistant to run simultaneously** without conflict.
 
 ### Installation & Configuration
-1. Install via **HACS** (Custom Repository) or manually copy to `/config/custom_components/mcp_device/`.
+1. Install via **HACS** (Custom Repository) or manually copy to `/config/custom_components/mcp_cocan/`.
 2. Retrieve your MCP Server URL (`https://.../mcp`) from the official App under **Settings -> Lobster Service**.
 3. Add **MCP Device** in HA Integration settings and enter the MCP Server URL.
 

@@ -3,7 +3,7 @@
 from enum import StrEnum
 from typing import Final
 
-DOMAIN: Final = "mcp_device"
+DOMAIN: Final = "mcp_cocan"
 
 # Config entry fields
 CONF_MCP_URL: Final = "mcp_url"
