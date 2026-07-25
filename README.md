@@ -29,8 +29,9 @@
 
 ### 方式二：手动安装
 1. 下载最新 [Release](https://github.com/Adisonyao/HA_mcp_CoCan/releases) 压缩包。
-2. 解压并将文件夹移至 `/config/custom_components/mcp_cocan/`。
-3. 重启 Home Assistant 并添加集成。
+2. 解压获得 **"mcp_cocan"文件** ，并将文件夹移至你的Home Assistant配置目录 `/config/custom_components/mcp_cocan/`。
+3. 重启 Home Assistant。
+4. 在 **添加集成** 页面搜索 **"小电拼Home Assistant"** ,添加集成。
 
 ---
 
