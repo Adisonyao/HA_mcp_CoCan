@@ -177,6 +177,13 @@ def convert_value(
         except (ValueError, TypeError):
             return raw
 
+    # Fallback: if no conversion params and raw is a numeric string,
+    # coerce to float so numeric device_class sensors don't get strings.
+    if isinstance(raw, str):
+        try:
+            return float(raw)
+        except (ValueError, TypeError):
+            pass
     return raw
 
 

@@ -169,7 +169,7 @@ class McpClient:
             {
                 "protocolVersion": "2024-11-05",
                 "capabilities": {},
-                "clientInfo": {"name": "ha-mcp-device", "version": "0.3.5"},
+                "clientInfo": {"name": "ha-mcp-device", "version": "0.3.6"},
             },
         )
         result = await self._post_json(payload)

@@ -7,5 +7,5 @@
   "integration_type": "hub",
   "iot_class": "cloud_polling",
   "issue_tracker":"https://github.com/Adisonyao/HA_mcp_CoCan/issues",
-  "version": "0.3.5"
+  "version": "0.3.6"
 }
